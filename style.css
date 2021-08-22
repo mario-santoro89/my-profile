@@ -1,0 +1,109 @@
+/* Colors and fonts */
+
+body {
+	background-color: CDF3A2;
+	color: rgb(30,30,30);
+	font-family: 'Lora', serif;
+	font-size: 17px;
+}
+
+ h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+ }
+ h1 {
+	color: rgb(90, 60, 120);
+	font-weight: 900;
+	font-size: 32px;
+ }
+ a{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 120, 212);
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3s ease;
+}
+a:hover {
+	color: rgb(0, 90, 158);
+	font-weight: bolder;
+}
+h2{
+    font-size: 29px;
+    font-weight: 400;
+    color: D54C4C;
+}
+ul{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Custom design */
+.container{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+@media(max-width: 760px){
+   .container {
+      width: 600px;
+   }
+}
+@media(max-width: 450px){
+   .container {
+      width: 380px;
+   }
+}
+ .color-radius {
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    background-color: BCFFB9;
+    border-radius: 13px;
+ } 
+ .img-circle {
+   border-radius: 50%;
+ }
+.btn-green{
+   background-color: CDF3A2;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 13px;
+}
+.btn-green:hover{
+   background-color: black;
+   color: white;
+}
+.list-inline{
+   padding-left: 0px;
+}
+.list-inline li {
+   display: inline;
+   padding: 10px;
+}
+.list-inline i {
+   font-size: 50px;
+   color: 716F81 ;
+   padding-bottom: 20px;
+}
+.list-inline i:hover {
+   color: black;
+}
+#introduction p {
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
